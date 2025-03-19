@@ -9,12 +9,12 @@ const CardsSection = () => {
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
     {
-      img: "src/assets/Group7.svg",
+      img: "assets/Group7.svg",
       title: "SEO and Backlinks",
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
     {
-      img: "src/assets/Group5.svg",
+      img: "assets/Group5.svg",
       title: "Content Marketing",
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
@@ -22,7 +22,6 @@ const CardsSection = () => {
 
   return (
     <div className="flex flex-col items-center justify-center pt-30 pb-20 w-full px-42">
-      {/* Heading Section */}
       <div className="flex flex-col items-center gap-4 justify-center pb-10">
         <h1 className="text-4xl font-medium">How does it work</h1>
         <p className="text-center text-md font-medium text-[#6e6e6e]">
