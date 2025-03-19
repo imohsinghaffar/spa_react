@@ -4,17 +4,17 @@ import Cards from "./Cards";
 const CardsSection = () => {
   const cardDetails = [
     {
-      img: "src/assets/Group12.svg",
+      img: "Group12.svg",
       title: "Speed Optimization",
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
     {
-      img: "assets/Group7.svg",
+      img: "Group7.svg",
       title: "SEO and Backlinks",
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
     {
-      img: "assets/Group5.svg",
+      img: "Group5.svg",
       title: "Content Marketing",
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
