@@ -44,8 +44,8 @@ const App = () => {
       </div>
 
       <CardsSection />
-      <SecondHeroSection flex='row' img='assets/Group1.png' secHead = 'We Offer a Full Range <br /> of Digital Marketing Services!' display='hidden'/>
-      <SecondHeroSection flex='row-reverse' img='assets/Group2.png'/>
+      <SecondHeroSection flex='row' img='assets/Group1.png' secHead = 'We Offer a Full Range of Digital Marketing Services!' display='hidden'/>
+      <SecondHeroSection flex='row-reverse' img='assets/Group2.png' display='inline' secHead={`Leading Digital Agency for  Business Solution.`}/>
     </>
   );
 };

@@ -13,8 +13,7 @@ const Cards = ({ src, cardTitle, cardDesc }) => {
         <Buttons
           btnText="Read More"
           textColor="text-[#97a3be]"
-          textHoverColor="hover:text-red-700"
-          borderWidth='0'
+          textHoverColor="red-700"
         />
       </div>
     </div>

@@ -4,7 +4,7 @@ import Cards from "./Cards";
 const CardsSection = () => {
   const cardDetails = [
     {
-      img: "assets/Group12.svg",
+      img: " assets/Group12.svg",
       title: "Speed Optimization",
       desc: "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
     },
