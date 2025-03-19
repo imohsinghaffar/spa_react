@@ -38,14 +38,14 @@ const App = () => {
             />
           </div>
           <div className="flex items-center justify-center">
-            <img src="src/assets/Group171.svg" alt="image not found" />
+            <img src="assets/Group171.svg" alt="image not found" />
           </div>
         </div>
       </div>
 
       <CardsSection />
-      <SecondHeroSection flex='row' img='/src/assets/Group1.png' secHead = 'We Offer a Full Range <br /> of Digital Marketing Services!' display='hidden'/>
-      <SecondHeroSection flex='row-reverse' img='/src/assets/Group2.png'/>
+      <SecondHeroSection flex='row' img='assets/Group1.png' secHead = 'We Offer a Full Range <br /> of Digital Marketing Services!' display='hidden'/>
+      <SecondHeroSection flex='row-reverse' img='assets/Group2.png'/>
     </>
   );
 };
