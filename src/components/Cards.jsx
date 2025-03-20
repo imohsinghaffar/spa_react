@@ -11,9 +11,10 @@ const Cards = ({ src, cardTitle, cardDesc }) => {
       <p className="text-start text-md text-gray-600 pr-30 mb-6">{cardDesc}</p>
       <div className="flex justify-start">
         <Buttons
-          btnText="Read More"
+          btnText="Readmore"
           textColor="text-[#97a3be]"
-          textHoverColor="red-700"
+          textHoverColor="hover:text-red-500"
+          borderWidth='hover:outline-0'
         />
       </div>
     </div>

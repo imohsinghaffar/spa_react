@@ -12,6 +12,7 @@ const NavMenues = () => {
           <li>
             <a
               href="#"
+              id="#home"
               className="block py-2 px-2 text-red-500 rounded-sm "
               aria-current="page"
             >
@@ -21,6 +22,7 @@ const NavMenues = () => {
           <li>
             <a
               href="#"
+              id="#about"
               className="block py-2 px-2 text-gray-900 rounded-sm md:hover:text-[#FF0000]"
             >
               About
@@ -29,6 +31,7 @@ const NavMenues = () => {
           <li>
             <a
               href="#"
+              id="#blog"
               className="block py-2 px-2 text-gray-900 rounded-sm md:hover:text-[#FF0000]"
             >
               Blog
@@ -38,6 +41,7 @@ const NavMenues = () => {
           <li>
             <a
               href="#"
+            id="#testimonial"
               className="block py-2 px-2 text-gray-900 rounded-sm md:hover:text-[#FF0000]"
             >
               Testimonials
@@ -47,11 +51,10 @@ const NavMenues = () => {
         <div className="ml-32">
           <Buttons
             btnText="Contact Us"
-            bg="[#1998ff]"
-            textColor="white"
-            borderColor="[#3CA8FF]"
-            borderWidth="1"
-            textHoverColor="[#3CA8FF]"
+            bg="bg-[#1998ff]"
+            textColor="text-white"
+            borderWidth="hover:outline-1"
+            textHoverColor="hover:text-[#3CA8FF]"
           />
         </div>
       </div>
