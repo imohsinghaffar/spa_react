@@ -1,10 +1,10 @@
 import React from "react";
 
-const Buttons = ({ btnText, textColor, bg, textHoverColor, borderWidth }) => {
+const Buttons = ({ btnText, textColor, bg, textHoverColor, borderWidth, bgHoverColor }) => {
   return (
     <>
       <button
-        className={`${textColor} ${bg} hover:bg-transparent outline-none hover:outline-solid ${borderWidth}  ${textHoverColor} cursor-pointer font-medium rounded-sm text-sm px-5 py-3`}
+        className={`${textColor} ${bg} transition-colors duration-600 ${bgHoverColor?bgHoverColor:'hover:bg-transparent'} outline-none hover:outline-solid ${borderWidth}  ${textHoverColor} cursor-pointer font-medium rounded-sm text-sm px-5 py-3`}
       >
         {btnText}
       </button>

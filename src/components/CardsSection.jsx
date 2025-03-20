@@ -38,7 +38,7 @@ const CardsSection = () => {
             cardTitle={title} 
             cardDesc={desc}
           />
-        ))}
+        ))}` 
       </div>
     </div>
   );

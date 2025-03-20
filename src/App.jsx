@@ -5,6 +5,7 @@ import "./index.css";
 import "./App.css";
 import CardsSection from "./components/CardsSection";
 import SecondHeroSection from "./components/SecondHeroSection";
+import CaseStudies from "./components/CaseStudies";
 
 const App = () => {
   return (
@@ -46,9 +47,11 @@ const App = () => {
       <CardsSection />
       <SecondHeroSection flex='flex-row' img='assets/Group1.png' secHead = 'We Offer a Full Range of Digital Marketing Services!' display='hidden'
       desc='Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.' desc2='Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer'/>
-      <SecondHeroSection flex='flex-row-reverse' img='assets/Group2.png' display='inline' secHead='Leading Digital Agency for  Business Solution.' desc='Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.' 
+      <SecondHeroSection flex='flex-row-reverse' img='assets/Group2.png' secHead='Leading Digital Agency for  Business Solution.' desc='Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.' 
       desc2 = 'Its smart features make it a powerful stand-alone website building tool.'/>
+      <CaseStudies />
     </>
+
   );
 };
 

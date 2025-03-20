@@ -11,7 +11,6 @@ const NavMenues = () => {
         <ul className="flex flex-col items-end justify-around p-4 md:p-0  ml-62 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row  ">
           <li>
             <a
-              href="#"
               id="#home"
               className="block py-2 px-2 text-red-500 rounded-sm "
               aria-current="page"
