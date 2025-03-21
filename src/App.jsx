@@ -6,6 +6,7 @@ import "./App.css";
 import CardsSection from "./components/CardsSection";
 import SecondHeroSection from "./components/SecondHeroSection";
 import CaseStudies from "./components/CaseStudies";
+import Testimonals from "./components/Testimonals";
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
               borderWidth="hover:outline-2"
               textHoverColor="hover:text-[#fc7341]"
               borderColor="text-[#fec4af]"
+              paddingX = 'px-5'
+              paddingY = 'py-3' 
             />
             <Buttons
               btnText="Learn More"
@@ -36,6 +39,8 @@ const App = () => {
               borderWidth="hover:outline-2"
               textHoverColor="hover:text-[#5ed6b3]"
               borderColor="border-[#5ed6b3]"
+              paddingX = 'px-5'
+              paddingY = 'py-3'
             />
           </div>
           <div className="flex items-center justify-center">
@@ -50,6 +55,13 @@ const App = () => {
       <SecondHeroSection flex='flex-row-reverse' img='assets/Group2.png' secHead='Leading Digital Agency for  Business Solution.' desc='Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.' 
       desc2 = 'Its smart features make it a powerful stand-alone website building tool.'/>
       <CaseStudies />
+      <Testimonals />
+    <div className="flex bg-[url(assets/gdpr.jpg)] bg-no-repeat bg-fit bg-center lg:px-40 md:mx-15 flex-col items-center justify-center py-40">
+      <h1 className="text-3xl ">Do you have any projects?</h1>
+      <h1 className="text-3xl mb-8" >Contact us</h1>
+      <button className="px-5 py-2 rounded-full text-red-500 xs:text-blue-600 hover:bg-red-500 hover:cursor-pointer transition-colors duration-300 hover:text-white bg-white border-solid border-2 border-red-500">Contact us</button>
+    </div>
+
     </>
 
   );
