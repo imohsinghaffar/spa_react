@@ -3,7 +3,7 @@ import CasestudiesCards from './CasestudiesCards';
 
 const CaseStudies = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full px-30 pt-20 pb-10">
+    <div className="flex flex-col items-center sm:px-10 justify-center w-full px-30 pt-20 pb-10">
       <div className="flex flex-col items-center gap-4 justify-center pb-10">
         <h1 className="text-3xl sm:text-4xl font-medium text-center">
           Our case studies
@@ -13,7 +13,7 @@ const CaseStudies = () => {
         </p>
       </div>
 
-      <div className="flex flex-row sm:flex-col md:flex-row justify-center gap-8 w-full px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 pb-20">
+      <div className="flex lg:flex-row sm:flex-col md:flex-row lg:justify-center lg:gap-6 w-full px-4 sm:px-8 md:px-12 lg:px-16 xl:px-30 pb-20">
         <CasestudiesCards
           title="Know more about Online marketing"
           bg="bg-[#000637]"

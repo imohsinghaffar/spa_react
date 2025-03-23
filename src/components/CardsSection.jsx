@@ -32,7 +32,7 @@ const CardsSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-14 justify-between w-full max-w-6xl mx-auto">
+      <div className="flex sm:flex-col lg:flex-row gap-14 justify-between w-full max-w-6xl mx-auto">
         {cardDetails.map(({ img, title, desc }, index) => (
           <Cards key={index} src={img} cardTitle={title} cardDesc={desc} />
         ))}

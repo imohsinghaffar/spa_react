@@ -25,7 +25,7 @@ const Buttons = ({
         cursor-pointer 
         font-medium 
         rounded-sm 
-        text-sm  
+        text-sm
         ${paddingY}
       `}
     >

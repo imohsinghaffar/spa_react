@@ -8,9 +8,9 @@ const Testimonials = ({ testimonialsData }) => {
   return (
     <>
       {/* Header Section */}
-      <div className="flex flex-col items-center justify-center w-full px-4 sm:px-8 pt-20 pb-10">
+      <div className="flex flex-col items-center justify-center lg:w-full sm:px-22 sm:pt-2 lg:pt-20 lg:pb-10">
         <div className="flex flex-col items-center gap-4 justify-center pb-10">
-          <h1 className="text-3xl sm:text-4xl font-medium text-center">
+          <h1 className="sm:text-3xl lg:text-4xl font-medium text-center">
             What our customers have to say
           </h1>
           <p className="text-center text-lg font-normal text-[#6e6e6e]">
@@ -20,7 +20,7 @@ const Testimonials = ({ testimonialsData }) => {
       </div>
 
       {/* Swiper Wrapper */}
-      <div className="relative">
+      <div className="relative lg:block sm:flex sm:flex-row">
         {/* Swiper Slider */}
         <Swiper
           spaceBetween={8}
@@ -34,18 +34,18 @@ const Testimonials = ({ testimonialsData }) => {
           modules={[Pagination, Autoplay]}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
-            640: { slidesPerView: 1 },
-            780: { slidesPerView: 2 },
-            1024: { slidesPerView: 2 },
-            1280: { slidesPerView: 3 },
-            1536: { slidesPerView: 3 },
+            640: { slidesPerView: 2},
+            780: { slidesPerView: 2},
+            1024: { slidesPerView: 2},
+            1280: { slidesPerView: 3},
+            1536: { slidesPerView: 3},
           }}
-          className="w-[1140px]"
+          className="w-[1220px]"
         >
 
           {testimonialsData.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col w-88 h-fit items-center justify-center py-12 rounded-md bg-[#f3f7fb] transition-all duration-300 mx-auto">
+              <div className="flex flex-col xl:w-88 lg:w-88 items-center justify-center sm:w-65 h-fit py-12 rounded-md bg-[#f3f7fb] transition-all duration-300 mx-auto">
                 <img
                   className="mb-3 w-20 h-20 rounded-full object-cover"
                   src={testimonial.image}

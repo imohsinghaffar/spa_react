@@ -3,7 +3,7 @@ import Buttons from "./Buttons";
 
 const CasestudiesCards = ({ img, title, bg, paragraph1, tags }) => {
   return (
-    <div className="flex flex-col w-full group">
+    <div className="flex flex-col w-full  group">
       <div
         className={`flex flex-col items-center relative justify-center ${bg} hover:bg-[#022aae] h-60 transition-all duration-500 ease-in-out`}
       >
