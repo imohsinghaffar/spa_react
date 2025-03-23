@@ -83,7 +83,7 @@ const App = () => {
       <Testimonals />
 
       {/* Contact Section */}
-      <div className="flex bg-[url('./assets/gdpr.jpg')] bg-no-repeat bg-center lg:px-40 md:mx-15 flex-col items-center justify-center py-40">
+      <div className="flex bg-[url('/assets/gdpr.jpg')] bg-no-repeat bg-center lg:px-40 md:mx-15 flex-col items-center justify-center py-40">
         <h1 className="text-3xl ">Do you have any projects?</h1>
         <h1 className="text-3xl mb-8">Contact us</h1>
         <button className="px-5 py-2 rounded-full text-red-500 xs:text-blue-600 hover:bg-red-500 hover:cursor-pointer transition-colors duration-300 hover:text-white bg-white border-solid border-2 border-red-500">
