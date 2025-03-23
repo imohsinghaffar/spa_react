@@ -17,6 +17,50 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const App = () => {
+  const testimonialsData = [
+    {
+      image: 'assets/face16.jpg',
+      clientName: 'Sophia Armstrong',
+      designation: 'Marketing Manager',
+      desc: 'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
+      divider : 'text-red-500 mt-3 mb-3 bg-red-500 w-20 h-[3px]'
+    },
+    {
+      image: 'assets/face15.jpg',
+      clientName: 'Cody Lambert',
+      designation: 'Marketing Manager',
+      desc: 'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
+      divider : 'text-black bg-black mt-3 mb-3 w-20 h-[3px]'
+    } ,
+    {
+      image: 'assets/face1.jpg',
+      clientName: 'Tony Martinez',
+      designation: 'Marketing Manager',
+      desc: 'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
+      divider : 'text-red-500 mt-3 mb-3 bg-red-500 w-20 h-[3px]'
+    },
+    {
+      image: 'assets/face3.jpg',
+      clientName: 'Sophia Armstrong',
+      designation: 'Marketing Manager',
+      desc: 'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
+      divider : 'text-black bg-black mt-3 mb-3 w-20 h-[3px]'
+    },
+    {
+      image: 'assets/face2.jpg',
+      clientName: 'Tony Martinez',
+      designation: 'Marketing Manager',
+      desc: 'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
+      divider : 'text-red-500 mt-3 mb-3 bg-red-500 w-20 h-[3px]'
+    },
+    {
+      image: 'assets/face20.jpg',
+      clientName: 'Cody Lambert',
+      designation: 'Marketing Manager',
+      desc: 'Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.',
+      divider : 'text-black bg-black mt-3 mb-3 w-20 h-[3px]'
+    }
+  ]
   return (
     <>
       <Navbar />
@@ -80,10 +124,10 @@ const App = () => {
       <CaseStudies />
 
       {/* Testimonial */}
-      <Testimonals />
+      <Testimonals testimonialsData = {testimonialsData} />
 
       {/* Contact Section */}
-      <div className="flex bg-[url('/assets/gdpr.jpg')] bg-no-repeat bg-center lg:px-40 md:mx-15 flex-col items-center justify-center py-40">
+      <div className="flex bg-[url('/assets/gdpr.jpg')] bg-no-repeat bg-center lg:px-40 md:mx-15 flex-col items-center justify-center mt-20 py-40">
         <h1 className="text-3xl ">Do you have any projects?</h1>
         <h1 className="text-3xl mb-8">Contact us</h1>
         <button className="px-5 py-2 rounded-full text-red-500 xs:text-blue-600 hover:bg-red-500 hover:cursor-pointer transition-colors duration-300 hover:text-white bg-white border-solid border-2 border-red-500">

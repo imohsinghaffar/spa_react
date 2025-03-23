@@ -1,9 +1,1 @@
 @import "tailwindcss";
-
-/* *{
-  font-family: 'Poppins', sans-serif;
-} */
-
-Html, body{
-  scroll-behavior: smooth;
-}
