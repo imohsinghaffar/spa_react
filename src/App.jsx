@@ -145,11 +145,11 @@ const App = () => {
           </div>
           <div className="flex flex-col lg:items-start sm:items-center sm:justify-center">
             <h1 className="text-xl font-medium">Get in Touch</h1>
-            <p className="lg:text-start sm:w-full sm:text-center sm:pr-0 pr-12 mt-3 text-[#6e6e6e]">
+            <p className="lg:text-start sm:w-full sm:text-center sm:pr-0 lg:pr-10 mt-3 text-[#6e6e6e]">
               Don’t miss any updates of our new templates and extensions.!
             </p>
             <input
-              className=" sm:w-full mt-3 lg:mb-4 sm:mb-3 bg-[#f6f7fb] py-1 px-2"
+              className=" sm:w-full lg:w-fit mt-3 lg:mb-4 sm:mb-3 bg-[#f6f7fb] py-1 px-2"
               type="email"
               name="email"
               id="email"
