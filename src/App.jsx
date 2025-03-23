@@ -65,16 +65,16 @@ const App = () => {
     <>
       <Navbar />
 
-      <div className="mx-auto pt-42 bg-[#f7f8fa] z-0 max-w-full" id="#">
+      <div className="pt-42 bg-[#f7f8fa] z-0 max-w-full px-0" id="#">
         <div className="text-center">
           <h1 className=" sm:text-4xl sm:font-bold text-5xl font-semibold z-0 text-gray-900">
             Search engine optimisation & <br /> Marketing.
           </h1>
-          <p className=" xs:text-xl sm:mx-14 mt-4 text-xl font-lg  text-gray-500">
+          <p className="sm:mx-14 mt-4 text-xl font-lg  text-gray-500">
             Simple is a simple template with a creative design that solves all
             your marketing and SEO queries.
           </p>
-          <div className="mt-6 flex items-center justify-center gap-3">
+          <div className="mt-6 flex items-center justify-center gap-3 px-42">
             <Buttons
               btnText="Get Started"
               bg="bg-[#fec4af]"
@@ -136,7 +136,7 @@ const App = () => {
       </div>
 
       {/* Footer */}
-      <div className="flex flex-col lg:px-42 sm:px-20">
+      <div className="lg:flex lg:flex-col lg:px-42 sm:px-20">
         <div className="lg:grid sm:grid-cols-1 md:grid-cols-4 xl:place-items-start lg:place-items-start sm:place-items-center  border-b-1 border-[#dee2e6] lg:pb-30 sm:pb-15">
           <div className="flex flex-col sm:mb-12 items-start justify-start">
             <Logo />

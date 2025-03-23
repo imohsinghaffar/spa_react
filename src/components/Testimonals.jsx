@@ -19,11 +19,7 @@ const Testimonials = ({ testimonialsData }) => {
         </div>
       </div>
 
-      {/* Swiper Wrapper */}
-      <div className="relative lg:block sm:flex sm:flex-row">
-        {/* Swiper Slider */}
         <Swiper
-          spaceBetween={8}
           slidesPerView={1}
           loop={true}
           pagination={{
@@ -36,17 +32,18 @@ const Testimonials = ({ testimonialsData }) => {
           breakpoints={{
             640: { slidesPerView: 2},
             780: { slidesPerView: 2},
-            1024: { slidesPerView: 2},
+            1024: { slidesPerView: 3},
             1280: { slidesPerView: 3},
             1536: { slidesPerView: 3},
-          }}
-          className="w-[1220px]"
+          }}  
+
+          className="w-6xl text-center"   
         >
 
           {testimonialsData.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col xl:w-88 lg:w-88 items-center justify-center sm:w-65 h-fit py-12 rounded-md bg-[#f3f7fb] transition-all duration-300 mx-auto">
-                <img
+              <div className="flex flex-col xl:w-90 md:w-85 lg:w-75 items-center justify-center sm:w-70 py-10 rounded-md bg-[#f3f7fb] transition-all duration-300 mx-10">
+                <img  
                   className="mb-3 w-20 h-20 rounded-full object-cover"
                   src={testimonial.image}
                   alt={testimonial.clientName}
@@ -59,10 +56,6 @@ const Testimonials = ({ testimonialsData }) => {
             </SwiperSlide>
           ))}
         </Swiper>
-
-
-        <div className="swiper-pagination !relative !mt-8"></div>
-      </div>
     </>
   );
 };
