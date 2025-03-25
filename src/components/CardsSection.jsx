@@ -21,7 +21,7 @@ const CardsSection = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center pt-20 pb-20 w-full px-8">
+    <div className="flex flex-col items-center justify-center pt-20 pb-20 w-full px-8 lg:px-42">
       <div className="flex flex-col items-center gap-2 justify-center pb-10">
         <h1 className="text-4xl font-medium text-center">
           How does it works
@@ -32,7 +32,7 @@ const CardsSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto">
+      <div className="flex flex-col lg:flex-row gap-22 lg:gap-50">
         {cardDetails.map(({ img, title, desc }, index) => (
           <Cards key={index} src={img} cardTitle={title} cardDesc={desc} />
         ))}

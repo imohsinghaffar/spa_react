@@ -3,17 +3,17 @@ import Buttons from "./Buttons";
 
 const Cards = ({ src, cardTitle, cardDesc }) => {
   return (
-    <div className="flex flex-col p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 sm:">
+    <div className="flex flex-col">
       <img  
         className=" scale-100 hover:scale-105 active:scale-105 w-16 h-16 mb-4 hover:ease-in-out duration-200 hover:transition-all"
         src={src}
         alt="card image"
         loading="lazy"
       />
-      <h1 className="text-xl font-medium mb-4 text-start">
+      <h1 className="text-xl font-medium mb-4">
         {cardTitle.split(" ")[0]} <br /> {cardTitle.split(" ").slice(1).join(" ")}
       </h1>
-      <p className="text-start text-md text-gray-500 pr-0  md:pr-8 lg:pr-12 xl:pr-16 mb-6">
+      <p className="text-gray-500 mb-3">
         {cardDesc}
       </p>
       <div className="text-start">
