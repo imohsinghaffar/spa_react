@@ -21,12 +21,12 @@ const CardsSection = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center pt-20 pb-20 w-full px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+    <div className="flex flex-col items-center justify-center pt-20 pb-20 w-full px-8">
       <div className="flex flex-col items-center gap-2 justify-center pb-10">
         <h1 className="text-4xl font-medium text-center">
           How does it works
         </h1>
-        <p className="mx-5 lg:mx-0 text-center text-lg  text-[#6e6e6e]">
+        <p className="mx-5 lg:mx-0 text-center text-md  text-[#6e6e6e]">
           One theme that serves as an easy-to-use operational toolkit <br />
           that meets customer's needs.
         </p>

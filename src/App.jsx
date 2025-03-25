@@ -67,7 +67,7 @@ const App = () => {
 
       <div className="pt-35 bg-[#f7f8fa] z-0 px-0" id="#">
         <div className="text-center">
-          <h1 className=" px-20 text-4xl font-extrabold z-0 text-black">
+          <h1 className=" px-20 text-3xl md:text-4xl font-extrabold z-0 text-black">
             Search engine optimisation & <br /> Marketing.
           </h1>
           <p className="px-5 mt-2 text-medium font-medium text-gray-500">
