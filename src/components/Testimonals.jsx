@@ -51,7 +51,7 @@ const Testimonials = ({ testimonialsData }) => {
                 />
                 <p className="px-8 text-md text-[#6e6e6e] text-center">{testimonial.desc}</p>
                 <div className={`${testimonial.divider}`}><hr /></div>
-                <h1 className="text-lg font-semibold">{testimonial.clientName}</h1>
+                <h1 className="text-xl font-medium">{testimonial.clientName}</h1>
                 <p className="text-[#6e6e6e] text-lg font-medium">{testimonial.designation}</p>
               </div>
             </SwiperSlide>

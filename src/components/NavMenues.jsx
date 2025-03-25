@@ -13,7 +13,7 @@ const NavMenues = () => {
             <a
             href="#"
               id="#home"
-              className="block py-2 px-2 rounded-sm hover:text-[#FF0000] transition-colors duration-300"
+              className="block py-2 text-red-500 px-2 rounded-sm hover:text-[#FF0000] transition-colors duration-300"
               
             >
               Home

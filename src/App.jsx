@@ -74,7 +74,7 @@ const App = () => {
             Simple is a simple template with a creative design that solves all
             your marketing and SEO queries.
           </p>
-          <div className="mt-6 flex items-center justify-center gap-3 px-42">
+          <div className="mt-6 flex items-center justify-center gap-3"> 
             <Buttons
               btnText="Get Started"
               bg="bg-[#fec4af]"
@@ -137,8 +137,8 @@ const App = () => {
 
       {/* Footer */}
       <div className="flex flex-col mx-8 lg:px-42">
-        <div className="grid grid-cols-1 place-items-center lg:grid-cols-4 border-b-1 border-[#dee2e6] lg:pb-30 pb-15">
-          <div className="flex flex-col mb-12 items-start lg:items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-4 border-b-1 border-[#dee2e6] lg:pb-30 pb-15">
+          <div className="flex flex-col mb-12 items-center lg:items-start">
             <Logo />  
             <p className="mt-3 text-[#6e6e6e]">mikayla_beer@feil.name</p>
             <p className="text-[#6e6e6e]">906-179-8309</p>
