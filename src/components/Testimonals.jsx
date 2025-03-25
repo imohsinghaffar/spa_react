@@ -8,12 +8,12 @@ const Testimonials = ({ testimonialsData }) => {
   return (
     <>
       {/* Header Section */}
-      <div className="flex flex-col items-center justify-center lg:w-full sm:px-22 sm:pt-2 lg:pt-20 lg:pb-10">
+      <div className="flex flex-col items-center justify-center lg:pt-20 pb-10">
         <div className="flex flex-col items-center gap-4 justify-center pb-10">
-          <h1 className="sm:text-3xl lg:text-4xl font-medium text-center">
+          <h1 className="text-3xl px-10  lg:text-4xl font-medium text-center">
             What our customers have to say
           </h1>
-          <p className="text-center text-lg font-normal text-[#6e6e6e]">
+          <p className="text-center text-md lg:text-lg text-[#6e6e6e]">
             Lorem ipsum dolor sit amet, tincidunt vestibulum.
           </p>
         </div>
@@ -37,12 +37,13 @@ const Testimonials = ({ testimonialsData }) => {
             1536: { slidesPerView: 3},
           }}  
 
-          className="w-6xl text-center"   
+          className="flex w-6xl"   
         >
 
           {testimonialsData.map((testimonial, index) => (
+
             <SwiperSlide key={index}>
-              <div className="flex flex-col xl:w-90 md:w-85 lg:w-75 items-center justify-center sm:w-70 py-10 rounded-md bg-[#f3f7fb] transition-all duration-300 mx-10">
+              <div className="flex flex-col mx-10 lg:mx-0 lg:w-90 content-center items-center py-10 rounded-md bg-[#f3f7fb] transition-all duration-300">
                 <img  
                   className="mb-3 w-20 h-20 rounded-full object-cover"
                   src={testimonial.image}
@@ -54,6 +55,7 @@ const Testimonials = ({ testimonialsData }) => {
                 <p className="text-[#6e6e6e] text-lg font-medium">{testimonial.designation}</p>
               </div>
             </SwiperSlide>
+
           ))}
         </Swiper>
     </>

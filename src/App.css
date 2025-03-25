@@ -1,4 +1,4 @@
-@import "@fontsource/poppins"; /* Defaults to weight 400 */
-@import "@fontsource/poppins/400.css"; /* Specify weight */
-@import "@fontsource/poppins/400-italic.css";
+@import "@fontsource/poppins";
+@import "@fontsource/poppins/700.css"; /* Specify weight */
+@import "@fontsource/poppins/500-italic.css";
 

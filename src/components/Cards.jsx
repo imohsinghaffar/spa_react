@@ -13,7 +13,7 @@ const Cards = ({ src, cardTitle, cardDesc }) => {
       <h1 className="text-xl font-medium mb-4 text-start">
         {cardTitle.split(" ")[0]} <br /> {cardTitle.split(" ").slice(1).join(" ")}
       </h1>
-      <p className="text-start text-md text-gray-600 pr-0 sm:pr-4 md:pr-8 lg:pr-12 xl:pr-16 mb-6">
+      <p className="text-start text-md text-gray-500 pr-0  md:pr-8 lg:pr-12 xl:pr-16 mb-6">
         {cardDesc}
       </p>
       <div className="text-start">

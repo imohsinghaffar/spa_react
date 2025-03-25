@@ -3,7 +3,7 @@ import Buttons from "./Buttons";
 
 const CasestudiesCards = ({ img, title, bg, paragraph1, tags }) => {
   return (
-    <div className="flex flex-col w-full  group">
+    <div className="flex flex-col w-full group">
       <div
         className={`flex flex-col items-center relative justify-center ${bg} hover:bg-[#022aae] h-60 transition-all duration-500 ease-in-out`}
       >
@@ -30,7 +30,7 @@ const CasestudiesCards = ({ img, title, bg, paragraph1, tags }) => {
         </div>
       </div>
 
-      <div className="text-center flex flex-col items-center justify-center pt-4 transition-all duration-500 ease-in-out">
+      <div className="text-center flex flex-col items-center justify-center pt-2 pb-6 md:pt-4 transition-all duration-500 ease-in-out">
         <h1 className="text-lg font-medium group-hover:text-[#007bff]">
           {paragraph1}
         </h1>

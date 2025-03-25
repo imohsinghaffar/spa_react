@@ -65,12 +65,12 @@ const App = () => {
     <>
       <Navbar />
 
-      <div className="pt-42 bg-[#f7f8fa] z-0 max-w-full px-0" id="#">
+      <div className="pt-35 bg-[#f7f8fa] z-0 px-0" id="#">
         <div className="text-center">
-          <h1 className=" sm:text-4xl sm:font-bold text-5xl font-semibold z-0 text-gray-900">
+          <h1 className=" px-20 text-4xl font-extrabold z-0 text-black">
             Search engine optimisation & <br /> Marketing.
           </h1>
-          <p className="sm:mx-14 mt-4 text-xl font-lg  text-gray-500">
+          <p className="px-5 mt-2 text-medium font-medium text-gray-500">
             Simple is a simple template with a creative design that solves all
             your marketing and SEO queries.
           </p>
@@ -96,7 +96,7 @@ const App = () => {
               paddingY="py-3"
             />
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center px-8 lg:px-none">
             <img src="assets/Group171.svg" alt="image not found" />
           </div>
         </div>
@@ -127,29 +127,29 @@ const App = () => {
       <Testimonals testimonialsData = {testimonialsData} />
 
       {/* Contact Section */}
-      <div className="flex bg-[url('/assets/gdpr.jpg')] bg-no-repeat bg-center sm:mx-15 lg:px-40 md:mx-15 flex-col items-center justify-center mt-20 py-40">
-        <h1 className="text-3xl ">Do you have any projects?</h1>
-        <h1 className="text-3xl mb-8">Contact us</h1>
+      <div className="flex bg-[url('/assets/gdpr.jpg')] bg-no-repeat bg-center mx-8 lg:px-40 mx- md:mx-15 flex-col items-center justify-center mt-20 py-40">
+        <h1 className="text-2xl lg:text-3xl ">Do you have any projects?</h1>
+        <h1 className="text-2xl lg:text-3xl mb-8">Contact us</h1>
         <button className="px-5 py-2 rounded-full text-red-500 xs:text-blue-600 hover:bg-red-500 hover:cursor-pointer transition-colors duration-300 hover:text-white bg-white border-solid border-2 border-red-500">
           Contact us
         </button>
       </div>
 
       {/* Footer */}
-      <div className="lg:flex lg:flex-col lg:px-42 sm:px-20">
-        <div className="lg:grid sm:grid-cols-1 md:grid-cols-4 xl:place-items-start lg:place-items-start sm:place-items-center  border-b-1 border-[#dee2e6] lg:pb-30 sm:pb-15">
-          <div className="flex flex-col sm:mb-12 items-start justify-start">
-            <Logo />
+      <div className="flex flex-col mx-8 lg:px-42">
+        <div className="grid grid-cols-1 place-items-center lg:grid-cols-4 border-b-1 border-[#dee2e6] lg:pb-30 pb-15">
+          <div className="flex flex-col mb-12 items-start lg:items-start">
+            <Logo />  
             <p className="mt-3 text-[#6e6e6e]">mikayla_beer@feil.name</p>
             <p className="text-[#6e6e6e]">906-179-8309</p>
           </div>
-          <div className="flex flex-col lg:items-start sm:items-center sm:justify-center">
+          <div className="flex flex-col lg:items-start px-8 items-center sm:justify-center">
             <h1 className="text-xl font-medium">Get in Touch</h1>
-            <p className="lg:text-start sm:w-full sm:text-center sm:pr-0 lg:pr-10 mt-3 text-[#6e6e6e]">
+            <p className="w-full text-center lg:text-start pr-10 mt-3 text-[#6e6e6e]">
               Don’t miss any updates of our new templates and extensions.!
             </p>
             <input
-              className=" sm:w-full lg:w-fit mt-3 lg:mb-4 sm:mb-3 bg-[#f6f7fb] py-1 px-2"
+              className=" w-full lg:w-fit mt-3 lg:mb-4 mb-3 bg-[#f6f7fb] py-1 px-2"
               type="email"
               name="email"
               id="email"
@@ -166,14 +166,14 @@ const App = () => {
               paddingY="py-3"
             />
           </div>
-          <div className="flex flex-col sm:mt-12 lg:mt-0 sm:items-center lg:items-start">
+          <div className="flex flex-col mt-12 lg:mt-0 items-center lg:items-start">
             <h1 className="text-xl font-medium">Our Guidelines</h1>
-            <ul className="lg:text-start sm:text-center ">
+            <ul className="lg:text-start text-center ">
               <li>
                 <a
                   id="#home"
                   href="#"
-                  className="block pt-3 hover:text-[#FF0000] text-[#6e6e6e]ver:text-[#FF0000] transition-colors duration-300"
+                  className="block pt-3 hover:text-[#FF0000] text-[#6e6e6e] transition-colors duration-300"
                 >
                   Terms
                 </a>
@@ -207,9 +207,9 @@ const App = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col lg:items-start sm:items-center lg:mt-0 sm:mt-14 lg:justify-start">
+          <div className="flex flex-col lg:items-start items-center lg:mt-0 mt-14 lg:justify-start">
             <h1 className="text-xl font-medium">Our Address</h1>
-            <p className="mt-3 text-[#6e6e6e] text-start">
+            <p className="mt-3 text-[#6e6e6e] text-center lg:text-start">
               518 Schmeler Neck
               <br /> Bartlett. Illinois
             </p>
@@ -229,8 +229,8 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-full lg:pt-8 sm:pt-4 pb-10 text-[#6e6e6e] lg:items-center sm:items-center justify-center">
-          <p className="sm:text-center">
+        <div className="flex w-full pt-8 pt-4 pb-10 text-[#6e6e6e] lg:items-center items-center justify-center">
+          <p className="text-center">
             Copyright © 2019{" "}
             <a
               href="#"
